@@ -1,0 +1,24 @@
+--------------  Start.txt - first command line exercise --------------  
+
+pwd
+mkdir projects
+cd projects
+pwd
+
+git config --global user.name "NAME"
+git config --global user.email "EMAIL@GMAIL.COM"
+git config --global --list 
+git clone github-https-url # paste in your GitHub HTTPS clone URL 
+ls
+cd learning-git
+ls
+git status 
+echo "Test Git Quick Start demo" >> start.txt
+ls 
+cat start.txt
+git status
+git add start.txt 
+git status
+git commit -m"Adding start text file"
+git status
+git push origin master
